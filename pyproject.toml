@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "profiling-sandbox"
+version = "0.1.0"
+description = ""
+authors = ["CCH0124 <cchong0124@gmail.com>"]
+readme = "README.md"
+packages = [{include = "profiling_sandbox", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.115.12"
+uvicorn = {extras = ["standard"], version = "^0.34.0"}
+memory-profiler = "^0.61.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
