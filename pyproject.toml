@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "profiling-sandbox"
+name = "python-tutorial"
 version = "0.1.0"
 description = ""
 authors = ["CCH0124 <cchong0124@gmail.com>"]
 readme = "README.md"
-packages = [{include = "profiling_sandbox", from = "src"}]
+packages = [{include = "tutorial", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
